@@ -1,0 +1,18 @@
+{
+    "name": "4 Player Ultimate Tic Tac Toe",
+    "version": "1.0.0",
+    "homepage": "https://KaveeshaW.github.io/442-Group-6-Spring-2021",
+    "scripts": {
+        "start": "node server.js",
+        "build": "node server.js",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "express": "4.17.1",
+        "gh-pages": "^3.1.0",
+        "request": "^2.88.2"
+    },
+    "author": "Group 6 CS 442 Spring 2021",
+    "license": "ISC"
+}
